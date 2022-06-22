@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:src="@drawable/vector8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="Counselling from"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="experts"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text="Talk to our experts and counsellors to "
+        android:textColor="#656464"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="get your queries cieared."
+        android:textColor="#656464"
+        android:textSize="@dimen/_12sdp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp">
+
+
+        <TextView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:background="@drawable/graybg" />
+
+
+        <TextView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:background="@drawable/graybg" />
+
+        <TextView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:background="@drawable/bluebg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="bottom">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="@dimen/_35sdp"-->
+<!--            android:text="Skip"-->
+<!--            android:textColor="#602FEA"-->
+<!--            android:textSize="@dimen/_15sdp"-->
+<!--            android:textStyle="bold" />-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:background="@drawable/bluebg"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:id="@+id/btnsignup"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
